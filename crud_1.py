@@ -3,7 +3,6 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# In-memory "database" for books
 books = {
     1: {"title": "The Alchemist", "author": "Paulo Coelho", "year": 1988, "genre": "Fiction"},
     2: {"title": "Atomic Habits", "author": "James Clear", "year": 2018, "genre": "Self-help"},
